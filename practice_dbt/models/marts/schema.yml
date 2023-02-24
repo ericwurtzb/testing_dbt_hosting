@@ -3,7 +3,7 @@ version: 2
 
 models:
   - name: fct_customer_orders
-    description: customer orders baby
+    description: sugma
     columns:
       - name: nvsr
         tests:
