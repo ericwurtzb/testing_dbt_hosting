@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: big-query-project-374718
+    schema: dbt_dataset
+    tables:
+      - name: customers
+      - name: orders

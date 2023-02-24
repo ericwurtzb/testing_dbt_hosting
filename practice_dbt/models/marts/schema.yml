@@ -1,0 +1,17 @@
+version: 2
+
+
+models:
+  - name: fct_customer_orders
+    description: customer orders baby
+    columns:
+      - name: nvsr
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['new', 'return']
+      - name: is_new
+        tests:
+          - is_true:
+              severity: warn
+              new_arg: false

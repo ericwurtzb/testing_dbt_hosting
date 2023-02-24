@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: big-query-project-374718
+    schema: dbt_dataset
+    tables:
+      - name: payment
