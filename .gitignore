@@ -1,5 +1,6 @@
 dbt_venv/
 practice_dbt/target/*
 !practice_dbt/target/index.html
+!practice_dbt/target/manifest.json
 dbt_packages/
 logs/
