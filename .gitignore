@@ -1,4 +1,5 @@
 dbt_venv/
-target/
+practice_dbt/target/*
+!practice_dbt/target/index.html
 dbt_packages/
 logs/
